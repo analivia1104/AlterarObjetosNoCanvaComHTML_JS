@@ -8,7 +8,7 @@ function cor_aleatoria() {
         .toString(16)
         .padStart(3, '0');
 }
-
+/*CRÉDITOS https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo*/
 ctx.fillStyle = cor_aleatoria();
 ctx.beginPath();
 ctx.moveTo(75,40);
