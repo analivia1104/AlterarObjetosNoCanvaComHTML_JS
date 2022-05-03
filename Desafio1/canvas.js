@@ -1,6 +1,7 @@
+
 var canvas = document.querySelector('canvas');
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = window.innerWidth; //largura
+canvas.height = window.innerHeight; //comprimento
 
 /*-----------------------------------------------------VARIAVEL---QUADRADO-----------------------------------------*/
 var quadradoA =  canvas.getContext('2d');
@@ -59,94 +60,94 @@ var circuloH2 =  canvas.getContext('2d');
 var circuloI2 =  canvas.getContext('2d');
 var circuloJ2 =  canvas.getContext('2d');
 /*---------------------------------------------------PROGRAMAÇÃO---QUADRADO-----------------------------------------*/
-quadradoA.fillStyle = 'rgba( 0,255,0,0,5)'; // Preto
-quadradoA.fillRect(10,100,50,50); // largura, altura, lados
+quadradoA.fillStyle = 'rgba( 0,255,0,0,5)'; // Cor Preto
+quadradoA.fillRect(10,100,50,50); // lugar em x; lugar em y; tamanho em x; tamanho em y.
 
-quadradoB.fillStyle = 'rgba( 72,61,139, 5)'; // Roxo
-quadradoB.fillRect(115,100,50,50); // largura, altura, lados
+quadradoB.fillStyle = 'rgba( 72,61,139, 5)'; // Cor Roxo
+quadradoB.fillRect(115,100,50,50); // lugar em x; lugar em y; tamanho em x; tamanho em y.
 
-quadradoC.fillStyle = 'rgba( 0,0,205, 5)'; // Azul
-quadradoC.fillRect(230,100,50,50); // largura, altura, lados
+quadradoC.fillStyle = 'rgba( 0,0,205, 5)'; // Cor Azul
+quadradoC.fillRect(230,100,50,50); // lugar em x; lugar em y; tamanho em x; tamanho em y.
 
-quadradoD.fillStyle = 'rgba( 0,191,255, 5)'; // Azul Marinho
-quadradoD.fillRect(350,100,50,50); // largura, altura, lados
+quadradoD.fillStyle = 'rgba( 0,191,255, 5)'; // Cor Azul Marinho
+quadradoD.fillRect(350,100,50,50); // lugar em x; lugar em y; tamanho em x; tamanho em y.
 
-quadradoE.fillStyle = 'rgba( 0,128,0, 5)'; // Verdinho
-quadradoE.fillRect(500,100,50,50); // largura, altura, lados
+quadradoE.fillStyle = 'rgba( 0,128,0, 5)'; // Cor verde claro
+quadradoE.fillRect(500,100,50,50); // lugar em x; lugar em y; tamanho em x; tamanho em y.
 
-quadradoF.fillStyle = 'rgba( 124,252,0, 5)'; // Oto verdinho
-quadradoF.fillRect(650,100,50,50); // largura, altura, lados
+quadradoF.fillStyle = 'rgba( 124,252,0, 5)'; // Cor outro verde
+quadradoF.fillRect(650,100,50,50); //lugar em x; lugar em y; tamanho em x; tamanho em y.
 
-quadradoG.fillStyle = 'rgba(218,165,32, 5)'; // Amarelo ovo claro
-quadradoG.fillRect(800,100,50,50); // largura, altura, lados
+quadradoG.fillStyle = 'rgba(218,165,32, 5)'; // Cor Amarelo ovo claro
+quadradoG.fillRect(800,100,50,50); //lugar em x; lugar em y; tamanho em x; tamanho em y.
 
-quadradoH.fillStyle = 'rgba( 210,105,30, 5)'; // Laranja
-quadradoH.fillRect(950,100,50,50); // largura, altura, lados
+quadradoH.fillStyle = 'rgba( 210,105,30, 5)'; // Cor Laranja
+quadradoH.fillRect(950,100,50,50); // lugar em x; lugar em y; tamanho em x; tamanho em y.
 
-quadradoI.fillStyle = 'rgba( 128,0,0, 5)'; // Vermelho bonito
-quadradoI.fillRect(1100,100,50,50); // largura, altura, lados
+quadradoI.fillStyle = 'rgba( 128,0,0, 5)'; // Cor Vermelho 
+quadradoI.fillRect(1100,100,50,50); // lugar em x; lugar em y; tamanho em x; tamanho em y.
 
-quadradoJ.fillStyle = 'rgba(199,21,133, 5)'; // Rosa Y2K
-quadradoJ.fillRect(1250,100,50,50); // largura, altura, lados
+quadradoJ.fillStyle = 'rgba(199,21,133, 5)'; // Cor Rosa Y2K
+quadradoJ.fillRect(1250,100,50,50); // lugar em x; lugar em y; tamanho em x; tamanho em y.
 
 /*-----------------------------------------------------PROGRAMAÇÃO---LINHA-----------------------------------------*/
 linhaA.beginPath();
-linhaA.moveTo(10,100);
-linhaA.lineTo(200,400);
-linhaA.strokeStyle = "black"; // Preto
+linhaA.moveTo(10,100); // eixo x começo ; eixo y começo.
+linhaA.lineTo(200,400); // eixo x final ; eixo y final.
+linhaA.strokeStyle = "black"; // cor Preto
 linhaA.stroke();
 
 linhaB.beginPath();
-linhaB.moveTo(115,100);
-linhaB.lineTo(300,400);
+linhaB.moveTo(115,100);// eixo x começo ; eixo y começo.
+linhaB.lineTo(300,400);// eixo x final ; eixo y final.
 linhaB.strokeStyle = 'rgba( 72,61,139, 5)'; // Roxo
 linhaB.stroke();
 
 linhaC.beginPath();
-linhaC.moveTo(230,100);
-linhaC.lineTo(400,400);
+linhaC.moveTo(230,100);// eixo x começo ; eixo y começo.
+linhaC.lineTo(400,400);// eixo x final ; eixo y final.
 linhaC.strokeStyle = 'rgba( 0,0,205, 5)'; // Azul
 linhaC.stroke();
 
 linhaD.beginPath();
-linhaD.moveTo(350,100);
-linhaD.lineTo(500,400);
+linhaD.moveTo(350,100);// eixo x começo ; eixo y começo.
+linhaD.lineTo(500,400);// eixo x final ; eixo y final.
 linhaD.strokeStyle = 'rgba( 0,191,255, 5)'; // Azul marinho
 linhaD.stroke();
 
 linhaE.beginPath();
-linhaE.moveTo(500,100);
-linhaE.lineTo(600,400);
+linhaE.moveTo(500,100);// eixo x começo ; eixo y começo.
+linhaE.lineTo(600,400);// eixo x final ; eixo y final.
 linhaE.strokeStyle = 'rgba( 0,128,0, 5)'; // Verdinho
 linhaE.stroke();
 
 linhaF.beginPath();
-linhaF.moveTo(650,100);
-linhaF.lineTo(700,400);
+linhaF.moveTo(650,100);// eixo x começo ; eixo y começo.
+linhaF.lineTo(700,400);// eixo x final ; eixo y final.
 linhaF.strokeStyle = 'rgba( 124,252,0, 5)'; // OTO Verdinho
 linhaF.stroke();
 
 linhaG.beginPath();
-linhaG.moveTo(800,100);
-linhaG.lineTo(800,400);
+linhaG.moveTo(800,100);// eixo x começo ; eixo y começo.
+linhaG.lineTo(800,400);// eixo x final ; eixo y final.
 linhaG.strokeStyle = 'rgba(218,165,32, 5)'; // Amarelo ovo claro
 linhaG.stroke();
 
 linhaH.beginPath();
-linhaH.moveTo(980,100);
-linhaH.lineTo(900,400);
+linhaH.moveTo(980,100);// eixo x começo ; eixo y começo.
+linhaH.lineTo(900,400);// eixo x final ; eixo y final.
 linhaH.strokeStyle = 'rgba( 210,105,30, 5)'; // Laranja
 linhaH.stroke();
 
 linhaI.beginPath();
-linhaI.moveTo(1150,100);
-linhaI.lineTo(1000,400);
+linhaI.moveTo(1150,100);// eixo x começo ; eixo y começo.
+linhaI.lineTo(1000,400);// eixo x final ; eixo y final.
 linhaI.strokeStyle = 'rgba( 128,0,0, 5)'; //  Vermelho bonito
 linhaI.stroke();
 
 linhaJ.beginPath();
-linhaJ.moveTo(1300,100);
-linhaJ.lineTo(1100,400);
+linhaJ.moveTo(1300,100);// eixo x começo ; eixo y começo.
+linhaJ.lineTo(1100,400);// eixo x final ; eixo y final.
 linhaJ.strokeStyle = 'rgba( 199,21,133, 5)'; //  Rosa Y2K
 linhaJ.stroke();
 
