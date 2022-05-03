@@ -26,16 +26,10 @@ function animate_X (){
     else if (x<0) eixoX =-eixoX;
     x=x+eixoX;
 
-}
-animate_X()
-/*------------------------------------------------------PROGRAMAÇÃO----EIXO_y-------------------------------------------*/
-/*function animate_Y (){
-    requestAnimationFrame(animate_Y);
-
-    quadrado2.clearRect(0,0,innerWidth,innerHeight); //limpar toda a tela
+/*******/
 
     quadrado2.fillStyle = "#FF4500" ;
-    quadrado2.fillRect(200,y,200,200); // eixo x; eixo y; altura. largura
+    quadrado2.fillRect(250,y,200,200); // eixo x; eixo y; altura. largura
 
     if((y+200)>innerHeight){
         eixoY=-eixoY
@@ -45,4 +39,4 @@ animate_X()
     y=y+eixoY;
 
 }
-animate_Y()*/
+animate_X()
