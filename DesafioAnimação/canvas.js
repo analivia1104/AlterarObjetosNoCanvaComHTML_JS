@@ -14,7 +14,7 @@ var achar1;
 var achar2;
 /*------------------------------------------------------PROGRAMAÇÃO----EIXO_X-------------------------------------------*/
 function Parar () {
-    
+    requestAnimationFrame(Parar);
     quadrado1.clearRect(0,0,innerWidth, innerHeight);
     quadrado2.clearRect(0,0,innerWidth, innerHeight);
 
